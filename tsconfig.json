@@ -1,6 +1,8 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "composite": true,
+    "target": "es2016",
     "strict": true
   }
 }
