@@ -5,6 +5,14 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#333",
   },
+  loadingArea: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  loadingText: {
+    color: "#FFF",
+  },
   totalMovieText: {
     color: "#FFF",
     fontSize: 18,
